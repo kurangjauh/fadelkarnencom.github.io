@@ -1,5 +1,14 @@
+@font-face {
+   font-family: AeonikReguler;
+   src: url("./fonts/AeonikTRIAL-Regular.otf");
+
+   font-family: AeonikBold;
+   src: url("./fonts/AeonikTRIAL-Bold.otf");
+}
+
 @import "tailwindcss";
-:root,
-html,
-body{
+
+@theme{
+   --font-aeonikreguler: AeonikReguler, "sans-serif";
+   --font-aeonikbold: AeonikBold, "sans-serif";
 }
