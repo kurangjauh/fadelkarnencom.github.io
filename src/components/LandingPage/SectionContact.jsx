@@ -9,10 +9,10 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-0 gap-12 md:gap-20">
         {/* Left Content */}
         <div className="flex-1 flex flex-col justify-center items-start text-black">
-          <h1 className="text-6xl md:text-[150px] font-aeonikbold leading-tight mb-6 select-none">
-            Get in<br />Touch
+          <h1 className="text-[60px] md:text-[150px] font-aeonikbold leading-tight mb-6 select-none">
+            Get in Touch
           </h1>
-          <p className="mb-6 text-base md:text-[30px] font-aeonikregular">
+          <p className="mb-6 text-base justify-center md:text-[30px] font-aeonikregular">
             Ready to discuss what’s next?
           </p>
           <a
@@ -40,7 +40,7 @@ const Contact = () => {
           <img
             src={AssetContact}
             alt="Fadel Karnen"
-            className="max-w-xs md:max-w-lg select-none"
+            className="max-w-xs mx-auto md:max-w-lg select-none"
             draggable="false"
           />
         </div>
